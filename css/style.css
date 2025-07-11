@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+}
+.mod {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.logo {
+  height: 50px;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #663300;
+  font-weight: bold;
+}
+.button, button {
+  background-color: #a0522d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.button:hover, button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #7a3b1d;
+}
+.button:active, button:active {
+  background-color: white;
+  color: #a0522d;
+  border: 2px solid #a0522d;
+}
+.product-list, .product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+}
+.product img {
+  width: 100%;
+  border-radius: 5px;
+}
+body.mod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+header, main {
+  width: 100%;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+.welcome h1, .welcome p {
+  margin: 10px 0;
+}
+.filter-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.filter-bar select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
